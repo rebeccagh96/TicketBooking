@@ -61,9 +61,9 @@ namespace TicketBookingCore.Tests
             });
             var request = new TicketBookingRequest
             {
-                FirstName = "Milena",
-                LastName = "Avramovic",
-                Email = "milenaavramovic@gmail.com"
+                FirstName = "Felicia",
+                LastName = "Gren",
+                Email = "feliciagren@gmail.com"
             };
             // Act
             TicketBookingResponse response = _processor.Book(request);
